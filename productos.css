@@ -1,0 +1,439 @@
+/* ============================================
+   PÁGINA PRODUCTOS - estilos específicos
+   ============================================ */
+
+.products-hero {
+  padding: 180px 40px 80px;
+  text-align: center;
+}
+
+.products-hero-eyebrow {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+}
+
+.products-hero-eyebrow::before,
+.products-hero-eyebrow::after {
+  content: "";
+  width: 30px;
+  height: 1.5px;
+  background: var(--black);
+}
+
+.products-hero h1 {
+  font-size: clamp(56px, 8vw, 130px);
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  line-height: 0.92;
+  margin-bottom: 28px;
+}
+
+.products-hero h1 .italic {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.products-hero p {
+  font-size: 22px;
+  max-width: 700px;
+  margin: 0 auto;
+  color: rgba(0, 0, 0, 0.75);
+  line-height: 1.5;
+}
+
+/* Tabs / Filtros */
+.tabs-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 60px 0;
+  flex-wrap: wrap;
+  padding: 0 24px;
+}
+
+.tab-btn {
+  background: transparent;
+  border: 2px solid var(--black);
+  color: var(--black);
+  padding: 14px 28px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+
+.tab-btn:hover {
+  background: var(--black);
+  color: var(--beige);
+}
+
+.tab-btn.active {
+  background: var(--black);
+  color: var(--beige);
+}
+
+/* Grid de productos */
+.productos-section {
+  padding: 0 40px 80px;
+}
+
+.productos-grid {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.producto-item {
+  background: var(--white);
+  border: 2px solid var(--black);
+  border-radius: 24px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.producto-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.15);
+}
+
+.producto-img {
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  background: var(--beige-light);
+  position: relative;
+}
+
+.producto-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+.producto-item:hover .producto-img img {
+  transform: scale(1.05);
+}
+
+.producto-tag {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: var(--black);
+  color: var(--beige);
+  padding: 7px 14px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.producto-tag.gourmet {
+  background: var(--beige);
+  color: var(--black);
+  border: 1.5px solid var(--black);
+}
+
+.producto-info {
+  padding: 28px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.producto-nombre {
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+  line-height: 1.15;
+}
+
+.producto-meta {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.55;
+  margin-bottom: 16px;
+}
+
+.producto-desc {
+  font-size: 15px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.75);
+  margin-bottom: 24px;
+}
+
+.producto-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  padding-top: 20px;
+  border-top: 1.5px dashed rgba(0, 0, 0, 0.2);
+}
+
+.producto-precio {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+.producto-cta {
+  background: var(--black);
+  color: var(--beige);
+  padding: 12px 22px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: transform 0.2s;
+}
+
+.producto-cta:hover {
+  transform: translateY(-2px);
+}
+
+/* Sección categoría */
+.categoria-titulo {
+  max-width: 1400px;
+  margin: 80px auto 30px;
+  padding: 0 40px;
+}
+
+.categoria-titulo h2 {
+  font-size: clamp(36px, 5vw, 64px);
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 0.95;
+  margin-bottom: 16px;
+}
+
+.categoria-titulo h2 .italic {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.categoria-titulo p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.65);
+  max-width: 600px;
+}
+
+/* Banner CTA en medio */
+.banner-cta {
+  margin: 80px 40px;
+  background: var(--black);
+  color: var(--beige);
+  border-radius: 36px;
+  padding: 80px 60px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-cta::before {
+  content: "✦";
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  font-size: 80px;
+  opacity: 0.15;
+}
+
+.banner-cta::after {
+  content: "✦";
+  position: absolute;
+  bottom: 30px;
+  left: 50px;
+  font-size: 60px;
+  opacity: 0.15;
+}
+
+.banner-cta h3 {
+  font-size: clamp(40px, 5vw, 70px);
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  margin-bottom: 20px;
+  color: var(--beige);
+}
+
+.banner-cta h3 .italic {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.banner-cta p {
+  font-size: 18px;
+  margin-bottom: 36px;
+  opacity: 0.85;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-cta .btn-primary {
+  background: var(--beige);
+  color: var(--black);
+}
+
+.banner-cta .btn-primary:hover {
+  background: var(--white);
+}
+
+/* Cocción info */
+.coccion-info {
+  background: var(--beige-light);
+  margin: 80px 0 0;
+  padding: 100px 40px;
+}
+
+.coccion-grid {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+}
+
+.coccion-content h2 {
+  font-size: clamp(40px, 5vw, 70px);
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+
+.coccion-content h2 .italic {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.coccion-steps {
+  list-style: none;
+  counter-reset: step;
+}
+
+.coccion-steps li {
+  counter-increment: step;
+  padding: 24px 0 24px 60px;
+  position: relative;
+  border-bottom: 1.5px solid rgba(0, 0, 0, 0.15);
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+.coccion-steps li:last-child {
+  border-bottom: none;
+}
+
+.coccion-steps li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 22px;
+  width: 40px;
+  height: 40px;
+  background: var(--black);
+  color: var(--beige);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.coccion-steps li strong {
+  display: block;
+  font-size: 19px;
+  font-weight: 800;
+  margin-bottom: 4px;
+  letter-spacing: -0.01em;
+}
+
+.coccion-img {
+  aspect-ratio: 1;
+  border-radius: 30px;
+  overflow: hidden;
+  border: 2px solid var(--black);
+  transform: rotate(-2deg);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+.coccion-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 980px) {
+  .productos-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .productos-section {
+    padding: 0 24px 60px;
+  }
+  .categoria-titulo {
+    padding: 0 24px;
+    margin: 60px auto 20px;
+  }
+  .banner-cta {
+    margin: 60px 24px;
+    padding: 60px 30px;
+    border-radius: 28px;
+  }
+  .coccion-info {
+    padding: 70px 24px;
+  }
+  .coccion-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  .coccion-img {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .products-hero {
+    padding: 130px 24px 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .productos-grid {
+    grid-template-columns: 1fr;
+  }
+  .producto-info {
+    padding: 22px;
+  }
+  .producto-nombre {
+    font-size: 22px;
+  }
+  .producto-precio {
+    font-size: 24px;
+  }
+}

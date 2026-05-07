@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flor de Chipá — Hecho como ninguno.</title>
+<meta name="description" content="Chipás congelados artesanales en Junín. Listos para hornear en 15 minutos. Pedí por WhatsApp o PedidosYa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" type="image/png" href="img/logo.png">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">
+      <img src="img/logo.png" alt="Flor de Chipá">
+      <span>Flor de Chipá</span>
+    </a>
+    <ul class="nav-menu">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="productos.html">Productos</a></li>
+      <li><a href="nosotros.html">Nosotros</a></li>
+      <li><a href="revendedores.html">Revendedores</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+    <a href="https://wa.me/5491123125062" target="_blank" class="nav-cta">
+      Pedí ahora →
+    </a>
+    <button class="nav-toggle" aria-label="Menú">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-grid">
+    <div class="hero-content">
+      <span class="hero-tag">Junín · Bs As · Hecho como ninguno</span>
+      <h1>
+        Chipás como<br>
+        los de <span class="accent">siempre</span>.<br>
+        Pero <span class="accent">mejores</span>.
+      </h1>
+      <p>
+        Artesanales, congelados, listos para hornear. En 15 minutos tenés en casa el chipá más rico que probaste — recién hecho, como debe ser.
+      </p>
+      <div class="hero-actions">
+        <a href="https://wa.me/5491123125062" target="_blank" class="btn btn-primary">
+          Pedí por WhatsApp
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+        <a href="productos.html" class="btn btn-secondary">
+          Ver productos
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-badge">
+        <span class="hero-badge-content">Hecho<br>como<br>ninguno ✦</span>
+      </div>
+      <div class="hero-img-wrap">
+        <img src="img/hero-chipas.png" alt="Chipás Flor de Chipá recién horneados">
+      </div>
+      <div class="hero-decor">
+        <div class="hero-decor-num">15'</div>
+        <div class="hero-decor-text">al horno</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span class="marquee-item">Hecho como ninguno</span>
+    <span class="marquee-item">100% artesanal</span>
+    <span class="marquee-item">Sin conservantes</span>
+    <span class="marquee-item">Listos en 15 minutos</span>
+    <span class="marquee-item">Junín — Bs As</span>
+    <span class="marquee-item">Hecho como ninguno</span>
+    <span class="marquee-item">100% artesanal</span>
+    <span class="marquee-item">Sin conservantes</span>
+    <span class="marquee-item">Listos en 15 minutos</span>
+    <span class="marquee-item">Junín — Bs As</span>
+  </div>
+</div>
+
+<!-- POR QUÉ -->
+<section class="section" id="por-que">
+  <div class="section-inner">
+    <span class="section-eyebrow">Por qué nosotros</span>
+    <h2 class="section-title">
+      No es un chipá<br>
+      <span class="italic">cualquiera.</span>
+    </h2>
+    <p class="section-lead">
+      Hace cinco años hacemos chipás como los hace una abuela — uno por uno, con tiempo, con quesos reales y sin atajos. Hoy los disfrutás en casa, listos para hornear.
+    </p>
+
+    <div class="why-grid">
+
+      <div class="why-card">
+        <div class="why-num">01</div>
+        <div class="why-icon">
+          <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M10 30 Q10 12 30 12 Q50 12 50 30"/>
+            <path d="M10 30 L10 48 L50 48 L50 30"/>
+            <circle cx="22" cy="38" r="2.5" fill="currentColor"/>
+            <circle cx="38" cy="38" r="2.5" fill="currentColor"/>
+            <circle cx="30" cy="22" r="2.5" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3 class="why-title">Receta artesanal</h3>
+        <p class="why-text">
+          Hechos uno por uno, con queso real y la receta que mamá aprendió en familia. Sin conservantes, sin atajos, sin secretos raros.
+        </p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-num">02</div>
+        <div class="why-icon">
+          <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M30 6 L30 54"/>
+            <path d="M14 14 L46 46"/>
+            <path d="M46 14 L14 46"/>
+            <path d="M6 30 L54 30"/>
+            <circle cx="30" cy="30" r="6" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3 class="why-title">Siempre listos</h3>
+        <p class="why-text">
+          Los tenés en el freezer y los cocinás cuando se te antoja. Llegan visitas sin avisar, querés merendar rico, lo que sea — vos elegís el momento.
+        </p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-num">03</div>
+        <div class="why-icon">
+          <svg viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="30" cy="30" r="22"/>
+            <path d="M30 16 L30 30 L40 36"/>
+          </svg>
+        </div>
+        <h3 class="why-title">15 minutos al horno</h3>
+        <p class="why-text">
+          Del freezer directo a la bandeja. En 15 minutos tenés chipás recién hechos, doraditos, calentitos — como si los hubieras hecho vos.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CÓMO FUNCIONA -->
+<section class="section how" id="como">
+  <div class="section-inner">
+    <span class="section-eyebrow">Cómo funciona</span>
+    <h2 class="section-title">
+      Pedís, retirás,<br>
+      <span class="italic">disfrutás.</span>
+    </h2>
+
+    <div class="how-steps">
+      <div class="how-step">
+        <div class="how-step-num">01</div>
+        <h3 class="how-step-title">Hacés el pedido</h3>
+        <p class="how-step-text">
+          Por WhatsApp o por PedidosYa. Elegís el pack que más te guste de nuestro catálogo.
+        </p>
+      </div>
+      <div class="how-step">
+        <div class="how-step-num">02</div>
+        <h3 class="how-step-title">Lo retirás</h3>
+        <p class="how-step-text">
+          Pasás por General Paz 12, en Junín. O lo recibís por delivery vía PedidosYa, como prefieras.
+        </p>
+      </div>
+      <div class="how-step">
+        <div class="how-step-num">03</div>
+        <h3 class="how-step-title">Al horno y a comer</h3>
+        <p class="how-step-text">
+          Horno a 200°, bandeja sin aceite, 15 minutos y listo. Recién hecho, como en panadería.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTOS DESTACADOS -->
+<section class="section" id="productos">
+  <div class="section-inner">
+    <span class="section-eyebrow">Nuestros chipás</span>
+    <h2 class="section-title">
+      Sabores para<br>
+      <span class="italic">elegir.</span>
+    </h2>
+    <p class="section-lead">
+      Tenemos clásicos para los fans de toda la vida y combinaciones gourmet para cuando querés algo distinto. Mirá los más pedidos.
+    </p>
+
+    <div class="products-preview">
+
+      <div class="product-card">
+        <div class="product-img">
+          <img src="img/prod-tradicional.jpg" alt="Chipá tradicional" onerror="this.style.background='#E8D49A'; this.alt='';">
+        </div>
+        <div class="product-info">
+          <span class="product-tag">Tradicional · 500g</span>
+          <h3 class="product-name">El clásico de siempre</h3>
+          <div class="product-price">$11.666</div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img">
+          <img src="img/prod-jamon.jpg" alt="Chipá jamón" onerror="this.style.background='#E8D49A'; this.alt='';">
+        </div>
+        <div class="product-info">
+          <span class="product-tag">Jamón · 500g</span>
+          <h3 class="product-name">Con jamón de calidad</h3>
+          <div class="product-price">$13.333</div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img">
+          <img src="img/prod-roque.jpg" alt="Chipá roquefort" onerror="this.style.background='#E8D49A'; this.alt='';">
+        </div>
+        <div class="product-info">
+          <span class="product-tag">Roquefort · 500g</span>
+          <h3 class="product-name">Para los fanáticos</h3>
+          <div class="product-price">$13.333</div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="product-img">
+          <img src="img/prod-mix.jpg" alt="Mix 4 sabores" onerror="this.style.background='#E8D49A'; this.alt='';">
+        </div>
+        <div class="product-info">
+          <span class="product-tag">Mix 4 sabores · 600g</span>
+          <h3 class="product-name">Para no elegir</h3>
+          <div class="product-price">$15.500</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="products-cta">
+      <a href="productos.html" class="btn btn-primary">
+        Ver todos los productos
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section class="testimonials">
+  <div class="section-inner">
+    <span class="section-eyebrow">Lo que dicen</span>
+    <h2 class="section-title">
+      No te lo decimos<br>
+      <span class="italic">nosotros.</span>
+    </h2>
+    <p class="section-lead">
+      Capturas reales de los chats con nuestros clientes. Sin filtros, sin actores, sin maquillaje.
+    </p>
+
+    <div class="testimonials-scroll">
+      <div class="testimonial-card"><img src="img/test-1.jpeg" alt="Testimonio cliente"></div>
+      <div class="testimonial-card"><img src="img/test-2.jpeg" alt="Testimonio cliente"></div>
+      <div class="testimonial-card"><img src="img/test-3.jpeg" alt="Testimonio cliente"></div>
+      <div class="testimonial-card"><img src="img/test-4.jpeg" alt="Testimonio cliente"></div>
+      <div class="testimonial-card"><img src="img/test-5.jpeg" alt="Testimonio cliente"></div>
+      <div class="testimonial-card"><img src="img/test-6.jpeg" alt="Testimonio cliente"></div>
+      <div class="testimonial-card"><img src="img/test-7.jpeg" alt="Testimonio cliente"></div>
+      <div class="testimonial-card"><img src="img/test-8.jpeg" alt="Testimonio cliente"></div>
+      <div class="testimonial-card"><img src="img/test-9.jpeg" alt="Testimonio cliente"></div>
+      <div class="testimonial-card"><img src="img/test-10.jpeg" alt="Testimonio cliente"></div>
+      <div class="testimonial-card"><img src="img/test-11.jpeg" alt="Testimonio cliente"></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="cta-section">
+  <div class="cta-inner">
+    <span class="section-eyebrow" style="justify-content: center; display: inline-flex;">Tu próximo chipá</span>
+    <h2 class="cta-title">
+      ¿Te quedó<br>
+      <span class="italic">hambre?</span>
+    </h2>
+    <p class="cta-text">
+      Pedilos ahora y los disfrutás en casa. Hechos como ninguno, en serio.
+    </p>
+    <div class="cta-buttons">
+      <a href="https://wa.me/5491123125062" target="_blank" class="btn btn-primary">
+        Pedí por WhatsApp
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+      </a>
+      <a href="https://www.pedidosya.com.ar" target="_blank" class="btn btn-secondary">
+        Pedí por PedidosYa
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="img/logo.png" alt="Flor de Chipá">
+        <div class="footer-tagline">
+          Hecho como <span class="italic">ninguno.</span>
+        </div>
+        <p class="footer-desc">
+          Chipás congelados artesanales en Junín, Buenos Aires. Hechos por Rolo y Mariana, mamá e hijo, desde 2021.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Sitio</h4>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="revendedores.html">Revendedores</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="https://wa.me/5491123125062" target="_blank">WhatsApp</a></li>
+          <li><a href="https://instagram.com/flordechipa__" target="_blank">Instagram</a></li>
+          <li><a href="https://www.pedidosya.com.ar" target="_blank">PedidosYa</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Visitanos</h4>
+        <ul>
+          <li>General Paz 12</li>
+          <li>Junín, Bs As</li>
+          <li>Lun a Vie · 9-13 / 16:30-19hs</li>
+          <li>Sábado · 10:30-15:30 / 17-19hs</li>
+          <li>Domingo · 11-13:30hs</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 Flor de Chipá · Todos los derechos reservados</span>
+      <span>Marca registrada · Categoría panificados</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Toggle del menú móvil
+  const toggle = document.querySelector('.nav-toggle');
+  const menu = document.querySelector('.nav-menu');
+  if (toggle) {
+    toggle.addEventListener('click', () => {
+      menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+      menu.style.position = 'absolute';
+      menu.style.top = '70px';
+      menu.style.right = '24px';
+      menu.style.flexDirection = 'column';
+      menu.style.background = 'var(--beige)';
+      menu.style.padding = '20px 30px';
+      menu.style.borderRadius = '20px';
+      menu.style.border = '2px solid var(--black)';
+    });
+  }
+</script>
+
+</body>
+</html>
